@@ -1,0 +1,14 @@
+import random 
+import time
+
+Answer=["GOD NO", "I Mean, give it a try", "I hate you", "please find the nearest cliff"
+        ,"please stop breathing", "ERROR 404", "ask again later", "kinky, NO"]
+        
+try_again = "true"
+while try_again == "true":
+  
+  question = input("What do you want: ")
+  print ("")
+  print ("")
+  result = random.choice(Answer)
+  print(result)
